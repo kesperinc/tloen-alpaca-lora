@@ -10,8 +10,9 @@ from datasets import load_dataset
 """
 Unused imports:
 import torch.nn as nn
-import bitsandbytes as bnb
 """
+
+import bitsandbytes as bnb
 
 from peft import (
     LoraConfig,
